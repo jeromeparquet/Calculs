@@ -15,7 +15,7 @@ namespace Calculs
             int solution; // calcul de la solution
             int reponse = 0; // saisie de la réponse de l'utilisateur
             string choix; // saisie du choix de l'utilsiateur
-            bool correct; // mémorise si la saisie est un entier
+            bool correct; 
 
             // boucle sur le menu
             choix = "1";
@@ -91,6 +91,7 @@ namespace Calculs
                         break;
                     default: // autre valeur donc erreur de saisie
                         Console.WriteLine("Erreur de saisie");
+                        Console.WriteLine("looser");
                         break;
                 }
             }
